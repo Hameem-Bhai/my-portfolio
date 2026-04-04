@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Custom Auto Render (Front)",
+    "category": "3D Modeling",
+    "description": "Hard-surface 3D modeling of a custom automotive design showcasing the front chassis layout.",
+    "imageUrl": "/artworks/3d_modeling/car.png",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "title": "Custom Auto Render (Back)",
+    "category": "3D Modeling",
+    "description": "Rear view of the hard-surface automotive layout focusing on the exhaust and trunk dynamics.",
+    "imageUrl": "/artworks/3d_modeling/carback.png",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "Album Cover Design",
+    "category": "Digital Paintings",
+    "description": "Moody, highly detailed custom digital painting commissioned for album cover art.",
+    "imageUrl": "/artworks/Digital Paintings/Album Cover (custom design).jpg",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "title": "Towards Light",
+    "category": "Digital Paintings",
+    "description": "Expressive digital art piece exploring themes of illumination, shadow, and artistic contrast.",
+    "imageUrl": "/artworks/Digital Paintings/Art - Towards Light.jpg",
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "title": "Digital Portrait Commission",
+    "category": "Digital Paintings",
+    "description": "Custom high-quality digital portrait painting (commissions are open to be made of yours!).",
+    "imageUrl": "/artworks/Digital Paintings/Digital painting (can be made of yours too if u want).jpg",
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "title": "Green Energy Campaign",
+    "category": "Graphics Designing",
+    "description": "Impactful graphic poster design promoting sustainable green energy initiatives.",
+    "imageUrl": "/artworks/graphics_designing/Graphic Poster (Green energy).jpg",
+    "link": "#"
+  },
+  {
+    "id": 7,
+    "title": "JDM Meetup Poster",
+    "category": "Graphics Designing",
+    "description": "High-octane graphic layout design poster dedicated to automotive and JDM culture.",
+    "imageUrl": "/artworks/graphics_designing/Graphic poster (JDM Meetup).jpg",
+    "link": "#"
+  },
+  {
+    "id": 8,
+    "title": "Hello Kitty Lighter Case",
+    "category": "Sculpting",
+    "description": "Handmade, custom-sculpted lighter case featuring Hello Kitty character aesthetics.",
+    "imageUrl": "/artworks/sculpting/Handmade lighter case (HelloKitty).jpg",
+    "link": "#"
+  },
+  {
+    "id": 9,
+    "title": "Custom Molded Case",
+    "category": "Sculpting",
+    "description": "Handmade, custom-molded sculptural utility case crafted meticulously from scratch.",
+    "imageUrl": "/artworks/sculpting/Handmade lighter case (custom design).jpg",
+    "link": "#"
+  }
+]

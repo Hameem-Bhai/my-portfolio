@@ -1,0 +1,19 @@
+.cursor-container {
+  pointer-events: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  z-index: 9999;
+}
+
+.cursor-char {
+  position: absolute;
+  color: var(--accent); /* Uses our new pink! */
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px var(--accent-glow);
+  pointer-events: none;
+  /* Faster transforms make the snake smooth */
+  transition: transform 0.1s linear, opacity 0.1s linear;
+}

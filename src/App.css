@@ -1,0 +1,51 @@
+/* src/App.css */
+.global-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2.5rem 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  pointer-events: auto;
+  background: linear-gradient(to bottom, rgba(11,12,16,0.9) 0%, transparent 100%);
+}
+
+.nav-link {
+  color: var(--accent);
+  font-weight: 900;
+  font-size: 1.3rem;
+  letter-spacing: 4px;
+  text-shadow: 0 0 15px var(--accent-glow);
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.3s ease;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #fff;
+  text-shadow: 0 0 25px #fff;
+  transform: scale(1.05);
+}
+
+/* MOBILE RESPONSIVENESS FOR NAV */
+@media (max-width: 900px) {
+  .global-nav {
+    padding: 1.5rem 2rem;
+  }
+  .nav-link {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+  }
+}
+@media (max-width: 450px) {
+  .global-nav {
+    padding: 1.2rem 1rem;
+  }
+  .nav-link {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+  }
+}
