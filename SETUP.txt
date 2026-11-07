@@ -1,0 +1,21 @@
+PORTFOLIO README PACK
+
+Copy README.md and docs/ to the root of my-portfolio, next to package.json.
+No application source, assets, deployment config, or contact key is modified.
+
+The banner is original illustrative artwork inspired by the code's floating
+textured card, balloons and cursor. It is not a recording or copied portrait.
+The full aspect ratio is preserved; no fixed-height cropping is used.
+
+Important findings documented in README:
+- contact form still uses YOUR_ACCESS_KEY_HERE
+- BrowserRouter needs SPA fallbacks and subpath asset care
+- cursor animation-frame cleanup retains only its initial request ID
+- lint command exists without visible root ESLint config
+- accessibility, motion and mobile GPU performance need checks
+
+Validation: animated GIF decoded and loop metadata checked, README image path
+checked, ZIP tested. Application not installed, built, or opened in a browser.
+
+Suggested commit message:
+docs: add animated portfolio README and setup guide
